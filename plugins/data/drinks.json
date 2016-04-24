@@ -1,0 +1,68 @@
+{
+   "templates":[
+      "gives {user} some {drink} along with {food}",
+      "says 'Sorry, {user}, we don't have any more drinks left'",
+      "slides some {drink} {user}'s way",
+      "gives {user} a bottle of {drink}, then says 'Hmm, you look hungry.' and gives {user} {food}"
+   ],
+   "parts": {
+      "drink":[
+         "water",
+         "lemonade",
+         "beer",
+         "pepsi",
+         "sprite",
+         "iced tea",
+         "apple juice",
+         "fruit punch",
+         "mixed alcohol",
+         "shots",
+         "wine",
+         "mug",
+         "absinthe",
+         "cherry cola",
+         "ginger ale",
+         "cream soda",
+         "gatorade",
+         "powerade",
+         "mountain dew",
+         "fanta",
+         "grape soda",
+         "limenade",
+         "raspberry drink",
+         "root beer",
+         "strawberry soda"
+         
+      ],
+"food": [
+        "some cookies",
+        "cake",
+        "dog food",
+        "nothing",
+        "a computer-like thing",
+        "a plate full 0f Zer0's",
+        "a plate with another plate on it",
+        "cat food",
+        "kibble",
+        "a candy bar",
+        "a plate full of poison",
+        "fries",
+        "a burger",
+        "a burger and fries"
+      ],
+      "hits": [
+        "hits",
+        "whacks",
+        "slaps",
+        "smacks",
+        "bonks",
+        "smashes"
+      ],
+      "person": [
+        "W24",
+        "Entr0py",
+        "WBot",
+        "Sn0wyBot"
+      ]
+   }
+}
