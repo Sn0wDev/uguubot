@@ -1,8 +1,8 @@
 {
   "acls": {}, 
   "admins": [
-    "infinity@*like.lolis", 
-    "infinity@i.like.lolis" 
+    "W24@I.am.Watching", 
+    "W24@Some.Stalker" 
   ], 
   "api_keys": {
     "bitly_api": "INSERT API KEY FROM bitly.com HERE", 
@@ -31,16 +31,16 @@
     "Rizon": {
       "auto_rejoin": false, 
       "channels": [
-        "#uguubot", 
-        "#devbot"
+        "#Bots", 
+        "#W24Bot"
       ], 
-      "command_prefix": ".,+", 
+      "command_prefix": ".%+", 
       "invite_join": false, 
-      "nick": "uguubot2", 
+      "nick": "wbot_", 
       "nickserv_password": "", 
-      "realname": "uguu", 
+      "realname": "wbot", 
       "server": "irc.rizon.io", 
-      "user": "uguu"
+      "user": "wbot"
     }
   }, 
   "disabled_commands": [], 
@@ -48,7 +48,7 @@
   "ignored": [
     "ignored nick here"
   ], 
-  "owner": "infinity",
+  "owner": "W24",
   "plugins": {
     "factoids": {
       "prefix": false
