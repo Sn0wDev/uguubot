@@ -181,6 +181,30 @@ def rekt(inp, me=None, nick=None, conn=None, notice=None):
     me(generator.generate_string())
     return
 
+@hook.command
+def trout(inp, me=None, nick=None, conn=None, notice=None):
+    """trout <user> -- Slaps <user> with a trout."""
+    target = inp.strip()
+
+    if " " in target:
+        notice("Invalid username!")
+        return
+
+    # if the user is trying to make the bot trout itself, trout them
+    if target.lower() == conn.nick.lower() or target.lower() == "itself":
+        target = nick
+
+    variables = {
+        "user": target
+    }
+
+    with open("plugins/data/trouts.json") as f:
+        generator = get_generator(f.read(), variables)
+
+    # act out the message
+    me(generator.generate_string())
+    return
+
 
 def get_filename(action,notice):
     if 'loli' in action: action = 'lolis'
