@@ -85,10 +85,13 @@ def pid(inp):
 
 @hook.command(autohelp=False)
 def bots(inp):
-    return "Reporting in! [Python] See http://uguubot.com"
-
+    return "Reporting in! 2[Python] UguuBot run by W24 See 12%help for more information"
+    
+@hook.command(autohelp=False)
+def help(inp):
+    return "UguuBot run by W24 10• For a mostly accurate list of commands, see http://uguubot.com 10• For support and channel requests, join #W24Bot"
 
 @hook.command(autohelp=False)
 def source(inp):
-    return "\x02uguubot\x02 - http://github.com/infinitylabs/uguubot"
+    return "\x02WBot's Source\x02 - https://github.com/MrW24/uguubot"
     
