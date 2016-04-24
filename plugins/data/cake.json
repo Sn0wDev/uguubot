@@ -1,0 +1,48 @@
+{
+   "templates":[
+      "gives {user} {cake}, along with {side}."
+   ],
+   "parts": {
+      "cake":[
+         "a plain vanilla cake",
+         "chocolate cake",
+         "green tea cake",
+         "carrot cake",
+         "Sn0wy Flavored Cake",
+         "Cake",
+         "a blueberry cake",
+         "a cake shaped cake",
+         "3D printed cake",
+         "a really flattened cake",
+         "a cookie",
+         "a random flavored cake",
+         "a cake that looks suspiciously like a brick"
+         
+      ],
+      "side": [
+        "a glass of chocolate milk",
+        "a plate full of fruit",
+        "another slice of cake",
+        "a computer",
+        "a note that says 'you should go outside and get a life'",
+        "no side",
+        "a plate with another plate on it",
+        "a glass of milk",
+        "a cookie"
+      ],
+      "hits": [
+        "hits",
+        "whacks",
+        "slaps",
+        "smacks",
+        "bonks",
+        "smashes"
+      ],
+      "person": [
+        "W24",
+        "Entr0py",
+        "WBot",
+        "Sn0wyBot"
+      ]
+   }
+}
