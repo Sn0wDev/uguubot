@@ -1,0 +1,41 @@
+{
+   "templates":[
+      "slap {user} {around} {fish}"
+      
+   ],
+   "parts": {
+      "fish":[
+         "a large brown trout",
+         "a minnow",
+         "a small diet trout",
+         "a whale",
+         "a overdone trout",
+         "a small brown trout",
+         "an alternative trout",
+         "a large fishbot"
+         
+         
+      ],
+"around": [
+        "around a bit with",
+        "around with",
+        "around a lot with",
+        "with"
+        
+      ],
+      "slap": [
+        "slaps",
+        "whacks",
+        "hits",
+        "smacks",
+        "bonks",
+        "smashes"
+      ],
+      "example": [
+        "example",
+        "example2",
+        "example3",
+        "example4"
+      ]
+   }
+}
