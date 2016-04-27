@@ -1,6 +1,6 @@
 {
    "templates":[
-      "slap {user} {around} {fish}"
+      "{slap} {user} {around} {fish}"
       
    ],
    "parts": {
