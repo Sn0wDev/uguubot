@@ -182,8 +182,8 @@ def rekt(inp, me=None, nick=None, conn=None, notice=None):
     return
 
 @hook.command
-def trout(inp, me=None, nick=None, conn=None, notice=None):
-    """trout <user> -- Slaps <user> with a trout."""
+def tslap(inp, me=None, nick=None, conn=None, notice=None):
+    """tslap <user> -- Slaps <user> with a trout."""
     target = inp.strip()
 
     if " " in target:
