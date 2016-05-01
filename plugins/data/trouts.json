@@ -1,6 +1,7 @@
 {
    "templates":[
-      "{slap} {user} {around} {fish}"
+      "{slap} {user} {around} {fish}",
+      "{slap} {user2} {around} with {fish} instead of {user}"
       
    ],
    "parts": {
@@ -31,11 +32,11 @@
         "bonks",
         "smashes"
       ],
-      "example": [
-        "example",
-        "example2",
-        "example3",
-        "example4"
+      "user2": [
+        "W24",
+        "itself",
+        "sn0wybot",
+        "da great spArky"
       ]
    }
 }
